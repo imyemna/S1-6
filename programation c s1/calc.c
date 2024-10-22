@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
   char operator;
   double num1, num2;
+  bool a;
 
   // Get the operator from the user
   printf("Enter operator (+, -, *, /): ");
@@ -10,7 +12,7 @@ int main() {
 
   // Get the first number from the user
   printf("Enter first number: ");
-  scanf("%lf ", &num1);
+  scanf("%lf", &num1);
   // Get the scand number from the user
   printf("Enter second number: ");
   scanf("%lf",  &num2);
@@ -36,6 +38,10 @@ int main() {
     default:
       printf("Error! Invalid operator.\n");
   }
-
+  while (true)
+  {
+  
+  }
+  
   return 0;
 }
