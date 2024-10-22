@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<stdbool.h>
 int main() {
     int decimalNumber;
 
@@ -11,4 +11,8 @@ int main() {
     printf("The hexadecimal representation is: %X\n", decimalNumber);
 
     return 0;
+    while (true){
+
+    }
+
 }
