@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include<stdbool.h>
 int main() {
-    int decimalNumber;
+    float decimalNumber;
 
     // Prompt user for a decimal number
     printf("Enter a decimal number: ");
-    scanf("%d", &decimalNumber);
+    scanf("%f", &decimalNumber);
 
-    // Convert to hexadecimal and print
+
+    // Convert to hexadecimal and octal and print
     printf("The hexadecimal representation is: %X\n", decimalNumber);
-
-    return 0;
+    printf("The hexadecimal representation is: %o\n", decimalNumber);
     while (true){
 
     }
-
+    return 0;
 }

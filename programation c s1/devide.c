@@ -11,5 +11,4 @@ int main(){
 
     div=a/b ;
     printf("la division du A:%d SUR B:%d est: %f",a,b,div);
-    return 0;
 }
