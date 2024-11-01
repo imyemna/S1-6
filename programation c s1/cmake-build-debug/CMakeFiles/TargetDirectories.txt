@@ -1,0 +1,3 @@
+C:/Users/imady/S1-6/programation c s1/cmake-build-debug/CMakeFiles/programation_c_s1.dir
+C:/Users/imady/S1-6/programation c s1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/imady/S1-6/programation c s1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
