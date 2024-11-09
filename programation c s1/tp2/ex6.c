@@ -4,6 +4,7 @@ int main() {
     int choix;
     float temperature, resultat;
 
+
     do {
         printf("\nChoisissez l'opération :\n");
         printf("1. Conversion de Celsius en Fahrenheit\n");
@@ -13,6 +14,8 @@ int main() {
         scanf("%d", &choix);
 
         switch (choix) {
+            
+            
             case 1:
                 printf("Entrez la température en Celsius : ");
                 scanf("%f", &temperature);
@@ -30,7 +33,7 @@ int main() {
             case 3:
                 printf("Au revoir !\n");
                 break;
-
+                
             default:
                 printf("Choix invalide. Veuillez réessayer.\n");
                 break;
