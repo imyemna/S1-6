@@ -14,7 +14,7 @@ int main()
         {
             for (int l = 0; l < 59; l++)
             {
-                //sleep(1);
+                sleep(1);
                 sec++;
                 printf("\r%02d:%02d",min,sec);
                 fflush(stdout);
@@ -31,7 +31,7 @@ int main()
             {
                 for (int p = 0; p < 59; p++)
                 {
-                    //sleep(1);
+                    sleep(1);
                     sec++;
                     printf("\r%02d:%02d",min,sec);
                     fflush(stdout);

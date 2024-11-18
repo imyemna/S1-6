@@ -3,11 +3,12 @@
 
 int main(){
     int sec,min;
-    for (min = 0; min < 24; min++)
+    for (min = 0; min < 60; min++)
     {
         for ( sec = 0; sec< 60; sec++)
         {
-            printf("%d:%d\n",min,sec);
+            printf("\r%02d:%02d",min,sec); 
+            fflush(stdout);
             sleep(1);
         }
         
