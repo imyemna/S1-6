@@ -8,11 +8,11 @@ int main ()
 
     while (a != 0)
     {
-        b=a%10;
+        b =a%10;
         
-        c= c * 10 + b;
+        c = c * 10 + b;
 
-        a /= 10;
+        a = a / 10;
     }
     
     printf("image miroire de a est %d",c);
