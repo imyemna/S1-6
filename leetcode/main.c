@@ -1,9 +1,13 @@
 #include <stdio.h>
 
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n; 
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive step
+}
+
 int main () {
-    char * a;
-    int i ;
-    a = "11";
-    i = *a;
-    printf("%d",i);
+    fibonacci(9);
+    printf("%d",fibonacci(9));
 }
