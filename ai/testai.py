@@ -19,11 +19,15 @@ model.add(tf.keras.layers.Dense(256, input_shape=(x_train.shape[1],), activation
 
 model.add(tf.keras.layers.Dense(256,activation='sigmoid'))
 
+model.add(tf.keras.layers.Dense(256,activation='sigmoid'))
+
+model.add(tf.keras.layers.Dense(256,activation='sigmoid'))
+
 model.add(tf.keras.layers.Dense(1,activation='sigmoid'))
 
 model.compile(optimizer='adam', loss='binary_crossentropy',metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=10, batch_size=10, validation_data=(x_test, y_test))
+model.fit(x_train, y_train, epochs=1000, batch_size=10, validation_data=(x_test, y_test))
 
 loss, accuracy = model.evaluate(x_test, y_test)
 
